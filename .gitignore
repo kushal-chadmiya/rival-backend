@@ -1,0 +1,39 @@
+# Binaries
+/api
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test & coverage
+*.test
+*.out
+coverage.*
+*.coverprofile
+
+# Go workspace
+go.work
+go.work.sum
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# OS & editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Debug & logs
+*.log
+
+# Agent / local tooling
+.agents/
+skills-lock.json
